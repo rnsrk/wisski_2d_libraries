@@ -1,8 +1,8 @@
 {
     "name": "rnsrk/wisski_2d_libraries",
     "description": "Installs the WissKI 2D libraries.",
-    "keywords": ["drupal recipe", "wisski"],
-    "type": "library",
+    "keywords": ["wisski"],
+    "type": "drupal-module",
     "license": "GPL-2.0-or-later",
     "authors": [
         {
