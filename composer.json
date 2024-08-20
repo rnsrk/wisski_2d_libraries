@@ -11,6 +11,14 @@
         }
     ],
     "minimum-stability": "dev",
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true,
+            "phpstan/extension-installer": true,
+            "php-http/discovery": true
+        },
+        "sort-packages": true
+    },
     "repositories": [
         {
             "type": "package",
@@ -74,5 +82,12 @@
         "jackmoore/colorbox": "^1.6.4",
         "rnsrk/wisski-mirador-integration": "^1.1",
         "ruven/iipmooviewer": "master"
+    },
+    "extra": {
+        "installer-paths": {
+            "web/libraries/{$name}": [
+                "type:drupal-library"
+            ]
+        }
     }
 }
