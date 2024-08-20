@@ -1,0 +1,13 @@
+name: 'WissKI 2D Libraries'
+type: module
+description: 'Module for managing 2D libraries in WissKI.'
+package: WissKI 2D Libraries
+configure: wisski_2d_libraries.settings
+core_version_requirement: ^10 | ^11
+
+dependencies:
+  - wisski
+  - wisski:wisski_iip_image
+  - wisski:wisski_mirador
+  - leaflet
+  - colorbox
