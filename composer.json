@@ -78,10 +78,7 @@
         }
     ],
     "require": {
-        "cure53/dompurify":"^3.1.6",
-        "jackmoore/colorbox":"^1.6.4",
-        "rnsrk/wisski-mirador-integration":"^1.1",
-        "ruven/iipmooviewer":"master"
+        "rnsrk/wisski-mirador-integration":"^1.1"
     },
     "extra": {
         "installer-paths": {
