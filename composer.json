@@ -10,81 +10,61 @@
             "role": "Maintainer"
         }
     ],
-    "minimum-stability": "dev",
-    "config": {
-        "allow-plugins": {
-            "composer/installers": true,
-            "phpstan/extension-installer": true,
-            "php-http/discovery": true
-        },
-        "sort-packages": true
-    },
     "repositories": [
         {
             "type": "package",
             "package": 
-                {
-                    "name": "cure53/dompurify",
-                    "version": "3.1.6",
-                    "type": "drupal-library",
-                    "dist": {
-                        "url": "https://github.com/cure53/DOMPurify/archive/3.1.6.zip",
-                        "type": "zip"
-                    }
+            {
+                "name": "cure53/dompurify",
+                "version": "3.1.6",
+                "type": "drupal-library",
+                "dist": {
+                    "url": "https://github.com/cure53/DOMPurify/archive/3.1.6.zip",
+                    "type": "zip"
                 }
+            }
             
         },
         {
             "type": "package",
             "package": 
-                {
-                    "name": "jackmoore/colorbox",
-                    "version": "1.6.4",
-                    "type": "drupal-library",
-                    "dist": {
-                        "url": "https://github.com/jackmoore/colorbox/archive/1.6.4.zip",
-                        "type": "zip"
-                    }
+            {
+                "name": "jackmoore/colorbox",
+                "version": "1.6.4",
+                "type": "drupal-library",
+                "dist": {
+                    "url": "https://github.com/jackmoore/colorbox/archive/1.6.4.zip",
+                    "type": "zip"
                 }
+            }
             
         },
         {
             "type": "package",
             "package": 
-                {
-                    "name": "rnsrk/wisski-mirador-integration",
-                    "version": "1.1",
-                    "type": "drupal-library",
-                    "dist": {
-                        "url": "https://github.com/rnsrk/wisski-mirador-integration/archive/1.1.zip",
-                        "type": "zip"
-                    }
+            {
+                "name": "rnsrk/wisski-mirador-integration",
+                "version": "1.1",
+                "type": "drupal-library",
+                "dist": {
+                    "url": "https://github.com/rnsrk/wisski-mirador-integration/archive/1.1.zip",
+                    "type": "zip"
                 }
+            }
             
         },
         {
             "type": "package",
             "package": 
-                {
-                    "name": "ruven/iipmooviewer",
-                    "version": "master",
-                    "type": "drupal-library",
-                    "dist": {
-                        "url": "https://github.com/ruven/iipmooviewer/archive/refs/heads/master.zip",
-                        "type": "zip"
-                    }
+            {
+                "name": "ruven/iipmooviewer",
+                "version": "master",
+                "type": "drupal-library",
+                "dist": {
+                    "url": "https://github.com/ruven/iipmooviewer/archive/refs/heads/master.zip",
+                    "type": "zip"
                 }
-            
+            }
         }
-    ],
-    "require": {
-        "rnsrk/wisski-mirador-integration":"^1.1"
-    },
-    "extra": {
-        "installer-paths": {
-            "web/libraries/{$name}": [
-                "type:drupal-library"
-            ]
-        }
-    }
+    ]
 }
