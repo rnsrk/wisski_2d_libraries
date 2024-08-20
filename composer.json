@@ -62,5 +62,8 @@
                 }
             }
         }
-    ]
+    ],
+    "require-dev": {
+        "cure53/dompurify": "*"
+    }
 }
