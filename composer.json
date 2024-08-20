@@ -21,11 +21,6 @@
                 "dist": {
                     "url": "https://github.com/cure53/DOMPurify/archive/3.1.6.zip",
                     "type": "zip"
-                },
-                "source": {
-                    "url": "https://github.com/cure53/DOMPurify.git",
-                    "type": "git",
-                    "reference": "main"
                 }
             }
         },
@@ -38,11 +33,6 @@
                 "dist": {
                     "url": "https://github.com/jackmoore/colorbox/archive/1.6.4.zip",
                     "type": "zip"
-                },
-                "source": {
-                    "url": "https://github.com/jackmoore/colorbox.git",
-                    "type": "git",
-                    "reference": "main"
                 }
             }
         },
@@ -55,11 +45,6 @@
                 "dist": {
                     "url": "https://github.com/rnsrk/wisski-mirador-integration/archive/1.1.zip",
                     "type": "zip"
-                },
-                "source": {
-                    "url": "https://github.com/rnsrk/wisski-mirador-integration.git",
-                    "type": "git",
-                    "reference": "main"
                 }
             }
         },
@@ -72,11 +57,6 @@
                 "dist": {
                     "url": "https://github.com/ruven/iipmooviewer/archive/refs/heads/master.zip",
                     "type": "zip"
-                },
-                "source": {
-                    "url": "https://github.com/ruven/iipmooviewer.git",
-                    "type": "git",
-                    "reference": "master"
                 }
             }
         }
