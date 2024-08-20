@@ -2,7 +2,7 @@
     "name": "rnsrk/wisski_2d_libraries",
     "description": "Installs the WissKI 2D libraries.",
     "keywords": ["drupal recipe", "wisski"],
-    "type": "drupal-recipe",
+    "type": "library",
     "license": "GPL-2.0-or-later",
     "authors": [
         {
@@ -17,7 +17,6 @@
             {
                 "name": "cure53/dompurify",
                 "version": "3.1.6",
-                "type": "drupal-library",
                 "dist": {
                     "url": "https://github.com/cure53/DOMPurify/archive/3.1.6.zip",
                     "type": "zip"
@@ -31,7 +30,6 @@
             {
                 "name": "jackmoore/colorbox",
                 "version": "1.6.4",
-                "type": "drupal-library",
                 "dist": {
                     "url": "https://github.com/jackmoore/colorbox/archive/1.6.4.zip",
                     "type": "zip"
@@ -45,7 +43,6 @@
             {
                 "name": "rnsrk/wisski-mirador-integration",
                 "version": "1.1",
-                "type": "drupal-library",
                 "dist": {
                     "url": "https://github.com/rnsrk/wisski-mirador-integration/archive/1.1.zip",
                     "type": "zip"
@@ -59,7 +56,6 @@
             {
                 "name": "ruven/iipmooviewer",
                 "version": "master",
-                "type": "drupal-library",
                 "dist": {
                     "url": "https://github.com/ruven/iipmooviewer/archive/refs/heads/master.zip",
                     "type": "zip"
