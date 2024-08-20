@@ -10,8 +10,8 @@
             "role": "Maintainer"
         }
     ],
-    "repositories": [
-        {
+    "repositories": {
+        "cure53/dompurify": {
             "type": "package",
             "package": 
             {
@@ -21,11 +21,21 @@
                 "dist": {
                     "url": "https://github.com/cure53/DOMPurify/archive/3.1.6.zip",
                     "type": "zip"
+                },
+                "source": {
+                    "url": "https://github.com/cure53/DOMPurify",
+                    "type": "git",
+                    "reference": "main"
+                },
+                "extra": {
+                    "installer-name": "dompurify",
+                    "installer-paths": {
+                        "webroot/libraries/dompurify": ["dist/*"]
+                    }
                 }
             }
-            
         },
-        {
+        "jackmoore/colorbox": {
             "type": "package",
             "package": 
             {
@@ -35,11 +45,22 @@
                 "dist": {
                     "url": "https://github.com/jackmoore/colorbox/archive/1.6.4.zip",
                     "type": "zip"
+                },
+                "source": {
+                    "url": "https://github.com/jackmoore/colorbox",
+                    "type": "git",
+                    "reference": "main"
+                },
+                "extra": {
+                    "installer-name": "colorbox",
+                    "installer-paths": {
+                        "webroot/libraries/colorbox": ["dist/*"]
+                    }
                 }
             }
             
         },
-        {
+        "rnsrk/wisski-mirador-integration":{
             "type": "package",
             "package": 
             {
@@ -49,11 +70,22 @@
                 "dist": {
                     "url": "https://github.com/rnsrk/wisski-mirador-integration/archive/1.1.zip",
                     "type": "zip"
+                },
+                "source": {
+                    "url": "https://github.com/rnsrk/wisski-mirador-integration",
+                    "type": "git",
+                    "reference": "main"
+                },
+                "extra": {
+                    "installer-name": "wisski-mirador-integration",
+                    "installer-paths": {
+                        "webroot/libraries/wisski-mirador-integration": ["dist/*"]
+                    }
                 }
             }
             
         },
-        {
+        "ruven/iipmooviewer": {
             "type": "package",
             "package": 
             {
@@ -63,10 +95,21 @@
                 "dist": {
                     "url": "https://github.com/ruven/iipmooviewer/archive/refs/heads/master.zip",
                     "type": "zip"
+                },
+                "source": {
+                    "url": "https://github.com/ruven/iipmooviewer",
+                    "type": "git",
+                    "reference": "master"
+                },
+                "extra": {
+                    "installer-name": "iipmooviewer",
+                    "installer-paths": {
+                        "webroot/libraries/iipmooviewer": ["dist/*"]
+                    }
                 }
             }
         }
-    ],
+    },
     "require": {
         "cure53/dompurify": "3.1.6",
         "jackmoore/colorbox": "1.6.4",
