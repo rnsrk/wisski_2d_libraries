@@ -22,7 +22,7 @@
     "repositories": [
         {
             "type": "package",
-            "package": [
+            "package": 
                 {
                     "name": "cure53/dompurify",
                     "version": "3.1.6",
@@ -32,11 +32,11 @@
                         "type": "zip"
                     }
                 }
-            ]
+            
         },
         {
             "type": "package",
-            "package": [
+            "package": 
                 {
                     "name": "jackmoore/colorbox",
                     "version": "1.6.4",
@@ -46,11 +46,11 @@
                         "type": "zip"
                     }
                 }
-            ]
+            
         },
         {
             "type": "package",
-            "package": [
+            "package": 
                 {
                     "name": "rnsrk/wisski-mirador-integration",
                     "version": "1.1",
@@ -60,11 +60,11 @@
                         "type": "zip"
                     }
                 }
-            ]
+            
         },
         {
             "type": "package",
-            "package": [
+            "package": 
                 {
                     "name": "ruven/iipmooviewer",
                     "version": "master",
@@ -74,14 +74,14 @@
                         "type": "zip"
                     }
                 }
-            ]
+            
         }
     ],
     "require": {
-        "cure53/dompurify": "^3.1.6",
-        "jackmoore/colorbox": "^1.6.4",
-        "rnsrk/wisski-mirador-integration": "^1.1",
-        "ruven/iipmooviewer": "master"
+        "cure53/dompurify":"^3.1.6",
+        "jackmoore/colorbox":"^1.6.4",
+        "rnsrk/wisski-mirador-integration":"^1.1",
+        "ruven/iipmooviewer":"master"
     },
     "extra": {
         "installer-paths": {
